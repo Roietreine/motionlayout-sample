@@ -10,27 +10,27 @@
         <KeyFrameSet>
 
             <KeyAttribute
+                android:scaleX="1.3"
+                motion:framePosition="0"
+                motion:motionTarget="@+id/ivFirstCircle" />
+            <KeyAttribute
+                android:scaleY="1.3"
+                motion:framePosition="0"
+                motion:motionTarget="@+id/ivFirstCircle" />
+            <KeyAttribute
+                android:scaleX="0.6"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/ivFirstCircle" />
+            <KeyAttribute
+                android:scaleY="0.6"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/ivFirstCircle" />
+            <KeyAttribute
                 android:scaleX="1.2"
-                motion:framePosition="0"
-                motion:motionTarget="@+id/ivFirstCircle" />
-            <KeyAttribute
-                android:scaleY="1.2"
-                motion:framePosition="0"
-                motion:motionTarget="@+id/ivFirstCircle" />
-            <KeyAttribute
-                android:scaleX="0.5"
-                motion:framePosition="100"
-                motion:motionTarget="@+id/ivFirstCircle" />
-            <KeyAttribute
-                android:scaleY="0.5"
-                motion:framePosition="100"
-                motion:motionTarget="@+id/ivFirstCircle" />
-            <KeyAttribute
-                android:scaleX="1.1"
                 motion:framePosition="0"
                 motion:motionTarget="@+id/ivSecondCircle" />
             <KeyAttribute
-                android:scaleY="1.1"
+                android:scaleY="1.2"
                 motion:framePosition="0"
                 motion:motionTarget="@+id/ivSecondCircle" />
             <KeyAttribute
@@ -43,12 +43,12 @@
                 motion:motionTarget="@+id/ivSecondCircle" />
 
             <KeyAttribute
-                android:scaleX="1.0"
+                android:scaleX="1.1"
                 motion:framePosition="0"
                 motion:motionTarget="@+id/ivThirdCircle" />
 
             <KeyAttribute
-                android:scaleY="1.0"
+                android:scaleY="1.1"
                 motion:framePosition="0"
                 motion:motionTarget="@+id/ivThirdCircle" />
             <KeyAttribute
@@ -61,20 +61,21 @@
                 motion:motionTarget="@+id/ivThirdCircle" />
 
             <KeyAttribute
-                android:scaleX="0.9"
+                android:scaleX="1.0"
                 motion:framePosition="0"
                 motion:motionTarget="@+id/ivFourthCircle" />
 
             <KeyAttribute
-                android:scaleY="0.9"
+                android:scaleY="1.0"
                 motion:framePosition="0"
                 motion:motionTarget="@+id/ivFourthCircle" />
+
             <KeyAttribute
-                android:scaleX="1.0"
+                android:scaleX="0.9"
                 motion:framePosition="100"
                 motion:motionTarget="@+id/ivFourthCircle" />
             <KeyAttribute
-                android:scaleY="1.0"
+                android:scaleY="0.9"
                 motion:framePosition="100"
                 motion:motionTarget="@+id/ivFourthCircle" />
 
@@ -84,7 +85,7 @@
                 motion:motionTarget="@+id/ivLogo" />
 
             <KeyAttribute
-                android:alpha="1"
+                android:alpha="1.0"
                 motion:framePosition="100"
                 motion:motionTarget="@+id/ivLogo" />
 
